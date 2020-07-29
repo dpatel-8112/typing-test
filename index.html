@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<table>
+			<caption><img src="logo-final.png" alt="amazing"></caption>
+			<thead>
+				<tr>
+					<th id="heading">Typing Test</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="origin-text">
+              			<code>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</code>
+              			
+            		</td>
+				</tr>
+				<tr>
+					<td><hr id="hr1"><hr id="hr2"><hr id="hr3"><hr id="hr4"></td>
+
+				</tr>
+				<tr>
+					<td class="test-wrapper">
+              			<textarea id="test-area" name="textarea" rows="6" value="" placeholder="The clock starts when you start typing."></textarea>
+            		</td>
+				</tr>
+				<tr>
+					<td id="clock">
+						<div class="timer">00 : 00 : 00</div>
+						<button id="reset">Start Over</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p id="speed"></p>
+	</div>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

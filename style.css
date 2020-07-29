@@ -1,0 +1,74 @@
+body{
+	background-color: rgba(0,0,0);
+	color: white;
+}
+img{
+	width: 100px;
+}
+.container{
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.8);
+	border: 1px solid black;
+	width: fit-content;
+	padding:30px;
+}
+#heading{
+	color: red;
+	font-size: 35px;
+
+}
+hr{
+	
+	width: 23%;
+	float: left;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+#hr1{
+	border: 1px solid yellow;
+}
+#hr2{
+	border: 1px solid green;
+}
+#hr3{
+	border: 1px solid blue;
+}
+#hr4{
+	border: 1px solid purple;
+}
+#origin-text{
+	width: 600px;
+	font-size: 20px;
+	text-align: justify;
+}
+.test-wrapper{
+		border: 10px solid grey;
+}
+.test-wrapper textarea{
+	max-width: 600px;
+	width: 600px;
+	max-height: 300px;
+	font-size: 18px;
+	padding: 7px;
+}
+#clock{
+	padding-top: 30px;
+}
+#clock .timer{
+	float: left;
+	font-size: 50px;
+	font-weight: bolder;
+}
+#clock #reset{
+	float: right;
+	padding: 8px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#speed{
+	font-size: 20px;
+	color: hotpink;
+	font-weight: bold;
+}
